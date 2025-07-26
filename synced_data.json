@@ -143,6 +143,10 @@
     "180573371": {
       "tag_name": "notepad-v2.20",
       "fully_synced_at": "2025-07-26 09:55:13.006974"
+    },
+    "176530517": {
+      "tag_name": "notepad-v2.19",
+      "fully_synced_at": "2025-07-26 09:55:30.995594"
     }
   },
   "assets": {
@@ -1231,7 +1235,8 @@
         "updated_at": "2025-07-26T09:55:12+00:00",
         "synced_at": "2025-07-26 09:55:12.997966"
       }
-    }
+    },
+    "176530517": {}
   },
   "source_codes": {
     "notepad--v1.10": {
@@ -1592,6 +1597,16 @@
       "SourceCode_notepad-v2.20.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 09:54:52.239890"
+      }
+    },
+    "notepad-v2.19": {
+      "SourceCode_notepad-v2.19.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:55:24.241584"
+      },
+      "SourceCode_notepad-v2.19.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:55:30.491213"
       }
     }
   }
