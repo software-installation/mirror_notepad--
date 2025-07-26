@@ -123,6 +123,10 @@
     "224218532": {
       "tag_name": "notepad-v3.3",
       "fully_synced_at": "2025-07-26 09:52:26.847371"
+    },
+    "210642284": {
+      "tag_name": "notepad-v3.2",
+      "fully_synced_at": "2025-07-26 09:52:59.485860"
     }
   },
   "assets": {
@@ -1045,6 +1049,38 @@
         "updated_at": "2025-07-26T09:52:26+00:00",
         "synced_at": "2025-07-26 09:52:26.841447"
       }
+    },
+    "210642284": {
+      "com.hmja.notepad_3.2.0.0_amd64.deb_4211704": {
+        "name": "com.hmja.notepad_3.2.0.0_amd64.deb",
+        "size": 4211704,
+        "updated_at": "2025-07-26T09:52:46+00:00",
+        "synced_at": "2025-07-26 09:52:46.652788"
+      },
+      "Notepad--v3.2.0-mac_arm64_12.3.dmg_30564199": {
+        "name": "Notepad--v3.2.0-mac_arm64_12.3.dmg",
+        "size": 30564199,
+        "updated_at": "2025-07-26T09:52:50+00:00",
+        "synced_at": "2025-07-26 09:52:50.227007"
+      },
+      "Notepad--v3.2.0-mac_x64_12.3.dmg_19935688": {
+        "name": "Notepad--v3.2.0-mac_x64_12.3.dmg",
+        "size": 19935688,
+        "updated_at": "2025-07-26T09:52:52+00:00",
+        "synced_at": "2025-07-26 09:52:53.151933"
+      },
+      "Notepad--v3.2.0-plugin-Installer.exe_20701950": {
+        "name": "Notepad--v3.2.0-plugin-Installer.exe",
+        "size": 20701950,
+        "updated_at": "2025-07-26T09:52:56+00:00",
+        "synced_at": "2025-07-26 09:52:56.343169"
+      },
+      "Notepad--v3.2.0-win10-portable.zip_26707089": {
+        "name": "Notepad--v3.2.0-win10-portable.zip",
+        "size": 26707089,
+        "updated_at": "2025-07-26T09:52:59+00:00",
+        "synced_at": "2025-07-26 09:52:59.478335"
+      }
     }
   },
   "source_codes": {
@@ -1356,6 +1392,16 @@
       "SourceCode_notepad-v3.3.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 09:52:07.709832"
+      }
+    },
+    "notepad-v3.2": {
+      "SourceCode_notepad-v3.2.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:52:38.556511"
+      },
+      "SourceCode_notepad-v3.2.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:52:44.359524"
       }
     }
   }
