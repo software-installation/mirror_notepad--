@@ -35,6 +35,10 @@
     "86302301": {
       "tag_name": "notepad-v1.20",
       "fully_synced_at": "2025-07-26 09:41:28.493033"
+    },
+    "90136850": {
+      "tag_name": "notepad--v1.21",
+      "fully_synced_at": "2025-07-26 09:41:53.376973"
     }
   },
   "assets": {
@@ -229,6 +233,32 @@
         "updated_at": "2025-07-26T09:41:28+00:00",
         "synced_at": "2025-07-26 09:41:28.490515"
       }
+    },
+    "90136850": {
+      "com.hmja.notepad_1.21.0_ubuntu_22.04_amd64.deb_21431872": {
+        "name": "com.hmja.notepad_1.21.0_ubuntu_22.04_amd64.deb",
+        "size": 21431872,
+        "updated_at": "2025-07-26T09:41:46+00:00",
+        "synced_at": "2025-07-26 09:41:46.967120"
+      },
+      "com.hmja.notepad_1.21.1_uos_amd64.deb_2224108": {
+        "name": "com.hmja.notepad_1.21.1_uos_amd64.deb",
+        "size": 2224108,
+        "updated_at": "2025-07-26T09:41:48+00:00",
+        "synced_at": "2025-07-26 09:41:48.609903"
+      },
+      "Notepad--v1.21.1-single-Installer.exe_7775340": {
+        "name": "Notepad--v1.21.1-single-Installer.exe",
+        "size": 7775340,
+        "updated_at": "2025-07-26T09:41:50+00:00",
+        "synced_at": "2025-07-26 09:41:50.715812"
+      },
+      "Notepad--v1.21.2-mac_x64_12.3.dmg_16802989": {
+        "name": "Notepad--v1.21.2-mac_x64_12.3.dmg",
+        "size": 16802989,
+        "updated_at": "2025-07-26T09:41:53+00:00",
+        "synced_at": "2025-07-26 09:41:53.372797"
+      }
     }
   },
   "source_codes": {
@@ -320,6 +350,16 @@
       "SourceCode_notepad-v1.20.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 09:41:24.257564"
+      }
+    },
+    "notepad--v1.21": {
+      "SourceCode_notepad--v1.21.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:41:38.546816"
+      },
+      "SourceCode_notepad--v1.21.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:41:43.517985"
       }
     }
   }
