@@ -67,6 +67,10 @@
     "102154596": {
       "tag_name": "notepad-v2.4",
       "fully_synced_at": "2025-07-26 09:45:12.318112"
+    },
+    "105206592": {
+      "tag_name": "notepad-v2.5",
+      "fully_synced_at": "2025-07-26 09:45:41.990302"
     }
   },
   "assets": {
@@ -543,6 +547,50 @@
         "updated_at": "2025-07-26T09:45:41+00:00",
         "synced_at": "2025-07-26 09:45:41.983924"
       }
+    },
+    "110154012": {
+      "com.hmja.notepad-v2.6-openky-x64.deb_12557728": {
+        "name": "com.hmja.notepad-v2.6-openky-x64.deb",
+        "size": 12557728,
+        "updated_at": "2025-07-26T09:46:00+00:00",
+        "synced_at": "2025-07-26 09:46:00.741208"
+      },
+      "Notepad--v2.6.0-mac_x64_12.3.dmg_17663158": {
+        "name": "Notepad--v2.6.0-mac_x64_12.3.dmg",
+        "size": 17663158,
+        "updated_at": "2025-07-26T09:46:03+00:00",
+        "synced_at": "2025-07-26 09:46:03.648067"
+      },
+      "Notepad--v2.6.0-mac_x64_sierra-10.13.dmg_17564504": {
+        "name": "Notepad--v2.6.0-mac_x64_sierra-10.13.dmg",
+        "size": 17564504,
+        "updated_at": "2025-07-26T09:46:06+00:00",
+        "synced_at": "2025-07-26 09:46:06.522665"
+      },
+      "Notepad--v2.6.0-plugin-Installer.exe_18611977": {
+        "name": "Notepad--v2.6.0-plugin-Installer.exe",
+        "size": 18611977,
+        "updated_at": "2025-07-26T09:46:08+00:00",
+        "synced_at": "2025-07-26 09:46:09.192777"
+      },
+      "Notepad--v2.6.0-single-Installer.exe_8320641": {
+        "name": "Notepad--v2.6.0-single-Installer.exe",
+        "size": 8320641,
+        "updated_at": "2025-07-26T09:46:10+00:00",
+        "synced_at": "2025-07-26 09:46:11.121975"
+      },
+      "Notepad--v2.6.0-win10-portable.zip_24698349": {
+        "name": "Notepad--v2.6.0-win10-portable.zip",
+        "size": 24698349,
+        "updated_at": "2025-07-26T09:46:14+00:00",
+        "synced_at": "2025-07-26 09:46:14.491216"
+      },
+      "Notepad--v2.6.0-win10-single-portable.zip_9830409": {
+        "name": "Notepad--v2.6.0-win10-single-portable.zip",
+        "size": 9830409,
+        "updated_at": "2025-07-26T09:46:16+00:00",
+        "synced_at": "2025-07-26 09:46:16.676195"
+      }
     }
   },
   "source_codes": {
@@ -724,6 +772,16 @@
       "SourceCode_notepad-v2.5.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 09:45:27.473125"
+      }
+    },
+    "notepad--v2.6": {
+      "SourceCode_notepad--v2.6.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:45:52.101724"
+      },
+      "SourceCode_notepad--v2.6.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:45:57.752033"
       }
     }
   }
