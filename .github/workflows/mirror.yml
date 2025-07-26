@@ -1,4 +1,5 @@
-name: 同步 Gitee Releases
+# .github/workflows/mirror.yml
+name: 同步cxasm/notepad--
 
 on:
   schedule:
@@ -33,11 +34,6 @@ jobs:
             exit 1
           fi
           
-          # 检查SOURCE_GITEE_TOKEN是否设置
-          if [ -z "$SOURCE_GITEE_TOKEN" ]; then
-            echo "警告: SOURCE_GITEE_TOKEN未设置，可能会遇到Gitee API限制"
-          fi
-          
           # 为TARGET_REPO设置默认值（当前仓库）
           if [ -z "$TARGET_REPO" ]; then
             echo "警告: TARGET_REPO未设置，将使用当前仓库作为目标"
@@ -46,12 +42,11 @@ jobs:
           fi
           
           # 打印最终使用的仓库信息（方便调试）
-          echo "源仓库 (Gitee): $SOURCE_REPO"
-          echo "目标仓库 (GitHub): $TARGET_REPO"
+          echo "源仓库: $SOURCE_REPO"
+          echo "目标仓库: $TARGET_REPO"
         env:
           SOURCE_REPO: ${{ secrets.SOURCE_REPO }}
           TARGET_REPO: ${{ secrets.TARGET_REPO }}
-          SOURCE_GITEE_TOKEN: ${{ secrets.SOURCE_GITEE_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}  # 内置变量，当前仓库"用户名/仓库名"
       
       - name: 检查更新并同步
@@ -59,6 +54,6 @@ jobs:
           SOURCE_REPO: ${{ secrets.SOURCE_REPO }}
           TARGET_REPO: ${{ secrets.TARGET_REPO || github.repository }}  # 若TARGET_REPO未设置，使用当前仓库
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SOURCE_GITEE_TOKEN: ${{ secrets.SOURCE_GITEE_TOKEN }}  # 修改为Gitee的token
+          SOURCE_GITHUB_TOKEN: ${{ secrets.SOURCE_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
         run: |
-          python mirror_gitee_releases.py  # 确保文件名与你的Python脚本一致
+          python mirror_github_releases.py
