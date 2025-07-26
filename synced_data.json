@@ -39,6 +39,10 @@
     "76039075": {
       "tag_name": "notepad-v1.14",
       "fully_synced_at": "2025-07-26 09:36:11.750396"
+    },
+    "76821436": {
+      "tag_name": "notepad-v1.15",
+      "fully_synced_at": "2025-07-26 09:36:27.602761"
     }
   },
   "assets": {
@@ -301,6 +305,38 @@
         "updated_at": "2025-07-26T09:36:11+00:00",
         "synced_at": "2025-07-26 09:36:11.747583"
       }
+    },
+    "76821436": {
+      "com.hmja.notepad_1.15.2.0_amd64.deb_1854448": {
+        "name": "com.hmja.notepad_1.15.2.0_amd64.deb",
+        "size": 1854448,
+        "updated_at": "2025-07-26T09:36:19+00:00",
+        "synced_at": "2025-07-26 09:36:19.729944"
+      },
+      "Notepad--v1.15.2-mac_m1_12.3.dmg_24746652": {
+        "name": "Notepad--v1.15.2-mac_m1_12.3.dmg",
+        "size": 24746652,
+        "updated_at": "2025-07-26T09:36:21+00:00",
+        "synced_at": "2025-07-26 09:36:22.021513"
+      },
+      "Notepad--v1.15.2-mac_x64_12.3.dmg_13370957": {
+        "name": "Notepad--v1.15.2-mac_x64_12.3.dmg",
+        "size": 13370957,
+        "updated_at": "2025-07-26T09:36:23+00:00",
+        "synced_at": "2025-07-26 09:36:23.953195"
+      },
+      "Notepad--v1.15.3-x64-setup.exe_9769388": {
+        "name": "Notepad--v1.15.3-x64-setup.exe",
+        "size": 9769388,
+        "updated_at": "2025-07-26T09:36:25+00:00",
+        "synced_at": "2025-07-26 09:36:25.802093"
+      },
+      "notepad--v1.15.3.zip_7868087": {
+        "name": "notepad--v1.15.3.zip",
+        "size": 7868087,
+        "updated_at": "2025-07-26T09:36:27+00:00",
+        "synced_at": "2025-07-26 09:36:27.600221"
+      }
     }
   },
   "source_codes": {
@@ -402,6 +438,16 @@
       "SourceCode_notepad-v1.14.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 09:35:59.426513"
+      }
+    },
+    "notepad-v1.15": {
+      "SourceCode_notepad-v1.15.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:36:16.748939"
+      },
+      "SourceCode_notepad-v1.15.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:36:18.105195"
       }
     }
   }
