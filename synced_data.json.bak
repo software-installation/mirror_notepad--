@@ -143,6 +143,10 @@
     "180573371": {
       "tag_name": "notepad-v2.20",
       "fully_synced_at": "2025-07-26 09:55:13.006974"
+    },
+    "176530517": {
+      "tag_name": "notepad-v2.19",
+      "fully_synced_at": "2025-07-26 09:55:30.995594"
     }
   },
   "assets": {
@@ -1231,6 +1235,45 @@
         "updated_at": "2025-07-26T09:55:12+00:00",
         "synced_at": "2025-07-26 09:55:12.997966"
       }
+    },
+    "176530517": {},
+    "169448739": {
+      "ndd-v2.18-kinly-spv10-x64.deb_6291028": {
+        "name": "ndd-v2.18-kinly-spv10-x64.deb",
+        "size": 6291028,
+        "updated_at": "2025-07-26T09:55:50+00:00",
+        "synced_at": "2025-07-26 09:55:50.571919"
+      },
+      "Notepad--v2.18.0-mac_arm64_12.3.dmg_30589086": {
+        "name": "Notepad--v2.18.0-mac_arm64_12.3.dmg",
+        "size": 30589086,
+        "updated_at": "2025-07-26T09:55:54+00:00",
+        "synced_at": "2025-07-26 09:55:54.414411"
+      },
+      "Notepad--v2.18.0-mac_x64_12.3.dmg_18991732": {
+        "name": "Notepad--v2.18.0-mac_x64_12.3.dmg",
+        "size": 18991732,
+        "updated_at": "2025-07-26T09:55:57+00:00",
+        "synced_at": "2025-07-26 09:55:57.372127"
+      },
+      "Notepad--v2.18.0-plugin-Installer.exe_19296210": {
+        "name": "Notepad--v2.18.0-plugin-Installer.exe",
+        "size": 19296210,
+        "updated_at": "2025-07-26T09:56:00+00:00",
+        "synced_at": "2025-07-26 09:56:00.257890"
+      },
+      "Notepad--v2.18.0-win10-portable.zip_24782621": {
+        "name": "Notepad--v2.18.0-win10-portable.zip",
+        "size": 24782621,
+        "updated_at": "2025-07-26T09:56:03+00:00",
+        "synced_at": "2025-07-26 09:56:03.630314"
+      },
+      "subtwo-2.18-x86_64.AppImage_34215104": {
+        "name": "subtwo-2.18-x86_64.AppImage",
+        "size": 34215104,
+        "updated_at": "2025-07-26T09:56:06+00:00",
+        "synced_at": "2025-07-26 09:56:07.067925"
+      }
     }
   },
   "source_codes": {
@@ -1602,6 +1645,16 @@
       "SourceCode_notepad-v2.19.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 09:55:30.491213"
+      }
+    },
+    "notepad-v2.18": {
+      "SourceCode_notepad-v2.18.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:55:42.389630"
+      },
+      "SourceCode_notepad-v2.18.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:55:47.874885"
       }
     }
   }
