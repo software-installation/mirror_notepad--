@@ -1,0 +1,37 @@
+{
+  "releases": {},
+  "assets": {
+    "248632": {
+      "notepad--v1.14.zip_0": {
+        "name": "notepad--v1.14.zip",
+        "size": 8572087,
+        "updated_at": "2025-07-26T08:59:44+00:00",
+        "synced_at": "2025-07-26 08:59:45.081841"
+      },
+      "Notepad--v1.14-mac_m1_12.3.dmg_0": {
+        "name": "Notepad--v1.14-mac_m1_12.3.dmg",
+        "size": 25736358,
+        "updated_at": "2025-07-26T09:00:39+00:00",
+        "synced_at": "2025-07-26 09:00:39.536388"
+      },
+      "Notepad--v1.14-mac_x64_12.3.dmg_0": {
+        "name": "Notepad--v1.14-mac_x64_12.3.dmg",
+        "size": 13193315,
+        "updated_at": "2025-07-26T09:01:10+00:00",
+        "synced_at": "2025-07-26 09:01:10.347199"
+      }
+    }
+  },
+  "source_codes": {
+    "v1.14": {
+      "SourceCode_v1.14.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 08:59:22.972569"
+      },
+      "SourceCode_v1.14.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 08:59:22.972800"
+      }
+    }
+  }
+}
