@@ -19,6 +19,10 @@
     "76821436": {
       "tag_name": "notepad-v1.15",
       "fully_synced_at": "2025-07-26 09:40:18.036986"
+    },
+    "78545653": {
+      "tag_name": "notepad-v1.16",
+      "fully_synced_at": "2025-07-26 09:40:30.822302"
     }
   },
   "assets": {
@@ -153,6 +157,38 @@
         "updated_at": "2025-07-26T09:40:30+00:00",
         "synced_at": "2025-07-26 09:40:30.821619"
       }
+    },
+    "82755901": {
+      "com.hmja.notepad_1.17.2.0_amd64.deb_2051528": {
+        "name": "com.hmja.notepad_1.17.2.0_amd64.deb",
+        "size": 2051528,
+        "updated_at": "2025-07-26T09:40:39+00:00",
+        "synced_at": "2025-07-26 09:40:40.087155"
+      },
+      "Notepad--v1.17.1-win7-x86-Installer.exe_17291018": {
+        "name": "Notepad--v1.17.1-win7-x86-Installer.exe",
+        "size": 17291018,
+        "updated_at": "2025-07-26T09:40:42+00:00",
+        "synced_at": "2025-07-26 09:40:42.738204"
+      },
+      "Notepad--v1.17.2-Installer.exe_7658508": {
+        "name": "Notepad--v1.17.2-Installer.exe",
+        "size": 7658508,
+        "updated_at": "2025-07-26T09:40:44+00:00",
+        "synced_at": "2025-07-26 09:40:44.822424"
+      },
+      "Notepad--v1.17.2-mac_x64_12.3.dmg_13669130": {
+        "name": "Notepad--v1.17.2-mac_x64_12.3.dmg",
+        "size": 13669130,
+        "updated_at": "2025-07-26T09:40:46+00:00",
+        "synced_at": "2025-07-26 09:40:47.107382"
+      },
+      "notepad--v1.17.2.zip_8124859": {
+        "name": "notepad--v1.17.2.zip",
+        "size": 8124859,
+        "updated_at": "2025-07-26T09:40:48+00:00",
+        "synced_at": "2025-07-26 09:40:48.991657"
+      }
     }
   },
   "source_codes": {
@@ -214,6 +250,16 @@
       "SourceCode_notepad-v1.16.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 09:40:23.795834"
+      }
+    },
+    "notepad--v1.17": {
+      "SourceCode_notepad--v1.17.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:40:35.926907"
+      },
+      "SourceCode_notepad--v1.17.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:40:38.197490"
       }
     }
   }
