@@ -131,6 +131,10 @@
     "199519409": {
       "tag_name": "notepad-v3.1",
       "fully_synced_at": "2025-07-26 09:53:29.432605"
+    },
+    "191072158": {
+      "tag_name": "notepad-v3.0",
+      "fully_synced_at": "2025-07-26 09:54:05.435923"
     }
   },
   "assets": {
@@ -1111,6 +1115,50 @@
         "updated_at": "2025-07-26T09:53:29+00:00",
         "synced_at": "2025-07-26 09:53:29.425305"
       }
+    },
+    "191072158": {
+      "com.hmja.notepad_3.0.0.0_amd64.deb_4199752": {
+        "name": "com.hmja.notepad_3.0.0.0_amd64.deb",
+        "size": 4199752,
+        "updated_at": "2025-07-26T09:53:48+00:00",
+        "synced_at": "2025-07-26 09:53:48.796502"
+      },
+      "com.hmja.notepad_3.0.0.0_arm64.deb_2162172": {
+        "name": "com.hmja.notepad_3.0.0.0_arm64.deb",
+        "size": 2162172,
+        "updated_at": "2025-07-26T09:53:50+00:00",
+        "synced_at": "2025-07-26 09:53:50.511489"
+      },
+      "ndd-v3.0.pdf_11444725": {
+        "name": "ndd-v3.0.pdf",
+        "size": 11444725,
+        "updated_at": "2025-07-26T09:53:52+00:00",
+        "synced_at": "2025-07-26 09:53:52.879768"
+      },
+      "Notepad--v3.0.0-mac_arm64_12.3.dmg_30561570": {
+        "name": "Notepad--v3.0.0-mac_arm64_12.3.dmg",
+        "size": 30561570,
+        "updated_at": "2025-07-26T09:53:56+00:00",
+        "synced_at": "2025-07-26 09:53:56.720553"
+      },
+      "Notepad--v3.0.0-mac_x64_12.3.dmg_19042533": {
+        "name": "Notepad--v3.0.0-mac_x64_12.3.dmg",
+        "size": 19042533,
+        "updated_at": "2025-07-26T09:53:58+00:00",
+        "synced_at": "2025-07-26 09:53:59.037172"
+      },
+      "Notepad--v3.0.0-plugin-Installer.exe_21129948": {
+        "name": "Notepad--v3.0.0-plugin-Installer.exe",
+        "size": 21129948,
+        "updated_at": "2025-07-26T09:54:01+00:00",
+        "synced_at": "2025-07-26 09:54:01.566076"
+      },
+      "Notepad--v3.0.0-win10-portable.zip_27682191": {
+        "name": "Notepad--v3.0.0-win10-portable.zip",
+        "size": 27682191,
+        "updated_at": "2025-07-26T09:54:05+00:00",
+        "synced_at": "2025-07-26 09:54:05.428469"
+      }
     }
   },
   "source_codes": {
@@ -1442,6 +1490,16 @@
       "SourceCode_notepad-v3.1.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 09:53:16.622182"
+      }
+    },
+    "notepad-v3.0": {
+      "SourceCode_notepad-v3.0.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:53:40.940266"
+      },
+      "SourceCode_notepad-v3.0.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:53:46.780058"
       }
     }
   }
