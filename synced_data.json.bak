@@ -71,6 +71,10 @@
     "105206592": {
       "tag_name": "notepad-v2.5",
       "fully_synced_at": "2025-07-26 09:45:41.990302"
+    },
+    "110154012": {
+      "tag_name": "notepad--v2.6",
+      "fully_synced_at": "2025-07-26 09:46:16.679704"
     }
   },
   "assets": {
@@ -591,6 +595,38 @@
         "updated_at": "2025-07-26T09:46:16+00:00",
         "synced_at": "2025-07-26 09:46:16.676195"
       }
+    },
+    "115544548": {
+      "com.hmja.notepad_2.7.0.0_amd64.deb_8447408": {
+        "name": "com.hmja.notepad_2.7.0.0_amd64.deb",
+        "size": 8447408,
+        "updated_at": "2025-07-26T09:46:35+00:00",
+        "synced_at": "2025-07-26 09:46:35.417384"
+      },
+      "Notepad--v2.7.0-mac_x64_12.3.dmg_18904992": {
+        "name": "Notepad--v2.7.0-mac_x64_12.3.dmg",
+        "size": 18904992,
+        "updated_at": "2025-07-26T09:46:38+00:00",
+        "synced_at": "2025-07-26 09:46:38.311506"
+      },
+      "Notepad--v2.7.0-mac_x64_sierra-10.13.dmg_17369201": {
+        "name": "Notepad--v2.7.0-mac_x64_sierra-10.13.dmg",
+        "size": 17369201,
+        "updated_at": "2025-07-26T09:46:41+00:00",
+        "synced_at": "2025-07-26 09:46:41.144379"
+      },
+      "Notepad--v2.7.0-plugin-Installer.exe_19242383": {
+        "name": "Notepad--v2.7.0-plugin-Installer.exe",
+        "size": 19242383,
+        "updated_at": "2025-07-26T09:46:44+00:00",
+        "synced_at": "2025-07-26 09:46:44.480042"
+      },
+      "Notepad--v2.7.0-win10-portable.zip_24775861": {
+        "name": "Notepad--v2.7.0-win10-portable.zip",
+        "size": 24775861,
+        "updated_at": "2025-07-26T09:46:47+00:00",
+        "synced_at": "2025-07-26 09:46:47.746608"
+      }
     }
   },
   "source_codes": {
@@ -782,6 +818,16 @@
       "SourceCode_notepad--v2.6.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 09:45:57.752033"
+      }
+    },
+    "notepad-v2.7": {
+      "SourceCode_notepad-v2.7.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:46:27.588975"
+      },
+      "SourceCode_notepad-v2.7.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:46:32.595643"
       }
     }
   }
