@@ -31,6 +31,10 @@
     "73417681": {
       "tag_name": "notepad-v1.13",
       "fully_synced_at": "2025-07-26 09:35:42.988236"
+    },
+    "70717427": {
+      "tag_name": "notepad--v1.11",
+      "fully_synced_at": "2025-07-26 09:35:52.813258"
     }
   },
   "assets": {
@@ -267,6 +271,32 @@
         "updated_at": "2025-07-26T09:35:52+00:00",
         "synced_at": "2025-07-26 09:35:52.810804"
       }
+    },
+    "76039075": {
+      "Notepad--v1.14-mac_m1_12.3.dmg_25736358": {
+        "name": "Notepad--v1.14-mac_m1_12.3.dmg",
+        "size": 25736358,
+        "updated_at": "2025-07-26T09:36:01+00:00",
+        "synced_at": "2025-07-26 09:36:01.823727"
+      },
+      "Notepad--v1.14-mac_x64_12.3.dmg_13193315": {
+        "name": "Notepad--v1.14-mac_x64_12.3.dmg",
+        "size": 13193315,
+        "updated_at": "2025-07-26T09:36:03+00:00",
+        "synced_at": "2025-07-26 09:36:03.826562"
+      },
+      "notepad--v1.14.zip_8572087": {
+        "name": "notepad--v1.14.zip",
+        "size": 8572087,
+        "updated_at": "2025-07-26T09:36:09+00:00",
+        "synced_at": "2025-07-26 09:36:09.926635"
+      },
+      "Notepad--v1.15-x64-setup.exe_10295233": {
+        "name": "Notepad--v1.15-x64-setup.exe",
+        "size": 10295233,
+        "updated_at": "2025-07-26T09:36:11+00:00",
+        "synced_at": "2025-07-26 09:36:11.747583"
+      }
     }
   },
   "source_codes": {
@@ -358,6 +388,16 @@
       "SourceCode_notepad--v1.11.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 09:35:49.486036"
+      }
+    },
+    "notepad-v1.14": {
+      "SourceCode_notepad-v1.14.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:35:58.052925"
+      },
+      "SourceCode_notepad-v1.14.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:35:59.426513"
       }
     }
   }
