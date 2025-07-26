@@ -31,6 +31,10 @@
     "73417681": {
       "tag_name": "notepad-v1.13",
       "fully_synced_at": "2025-07-26 09:35:42.988236"
+    },
+    "70717427": {
+      "tag_name": "notepad--v1.11",
+      "fully_synced_at": "2025-07-26 09:35:52.813258"
     }
   },
   "assets": {
@@ -253,6 +257,20 @@
         "updated_at": "2025-07-26T09:35:42+00:00",
         "synced_at": "2025-07-26 09:35:42.985847"
       }
+    },
+    "70717427": {
+      "com.hmja.notepad_1.11.0.0_amd64.deb_1791564": {
+        "name": "com.hmja.notepad_1.11.0.0_amd64.deb",
+        "size": 1791564,
+        "updated_at": "2025-07-26T09:35:50+00:00",
+        "synced_at": "2025-07-26 09:35:50.954456"
+      },
+      "notepad--v1.11.zip_8345912": {
+        "name": "notepad--v1.11.zip",
+        "size": 8345912,
+        "updated_at": "2025-07-26T09:35:52+00:00",
+        "synced_at": "2025-07-26 09:35:52.810804"
+      }
     }
   },
   "source_codes": {
@@ -334,6 +352,16 @@
       "SourceCode_notepad-v1.13.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 09:35:37.825560"
+      }
+    },
+    "notepad--v1.11": {
+      "SourceCode_notepad--v1.11.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:35:48.097336"
+      },
+      "SourceCode_notepad--v1.11.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:35:49.486036"
       }
     }
   }
