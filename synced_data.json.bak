@@ -95,6 +95,10 @@
     "127119527": {
       "tag_name": "notepad-v2.10",
       "fully_synced_at": "2025-07-26 09:48:49.048172"
+    },
+    "135075043": {
+      "tag_name": "notepad-v2.12",
+      "fully_synced_at": "2025-07-26 09:49:23.946860"
     }
   },
   "assets": {
@@ -831,6 +835,38 @@
         "updated_at": "2025-07-26T09:49:23+00:00",
         "synced_at": "2025-07-26 09:49:23.937527"
       }
+    },
+    "145758388": {
+      "Notepad--v2.14.0-mac_arm64_12.3.dmg_30654821": {
+        "name": "Notepad--v2.14.0-mac_arm64_12.3.dmg",
+        "size": 30654821,
+        "updated_at": "2025-07-26T09:49:43+00:00",
+        "synced_at": "2025-07-26 09:49:43.214632"
+      },
+      "Notepad--v2.14.0-mac_x64_12.3.dmg_18906726": {
+        "name": "Notepad--v2.14.0-mac_x64_12.3.dmg",
+        "size": 18906726,
+        "updated_at": "2025-07-26T09:49:45+00:00",
+        "synced_at": "2025-07-26 09:49:45.604984"
+      },
+      "Notepad--v2.14.0-plugin-Installer.exe_19378818": {
+        "name": "Notepad--v2.14.0-plugin-Installer.exe",
+        "size": 19378818,
+        "updated_at": "2025-07-26T09:49:48+00:00",
+        "synced_at": "2025-07-26 09:49:48.735786"
+      },
+      "Notepad--v2.14.0-win10-portable.zip_24953956": {
+        "name": "Notepad--v2.14.0-win10-portable.zip",
+        "size": 24953956,
+        "updated_at": "2025-07-26T09:49:51+00:00",
+        "synced_at": "2025-07-26 09:49:51.842500"
+      },
+      "subtwo-2.14-x86_64.AppImage_39584960": {
+        "name": "subtwo-2.14-x86_64.AppImage",
+        "size": 39584960,
+        "updated_at": "2025-07-26T09:49:56+00:00",
+        "synced_at": "2025-07-26 09:49:56.515311"
+      }
     }
   },
   "source_codes": {
@@ -1082,6 +1118,16 @@
       "SourceCode_notepad-v2.12.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 09:49:04.872946"
+      }
+    },
+    "notepad-v2.14": {
+      "SourceCode_notepad-v2.14.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:49:34.383661"
+      },
+      "SourceCode_notepad-v2.14.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:49:39.561843"
       }
     }
   }
