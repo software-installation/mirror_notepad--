@@ -1,0 +1,36 @@
+{
+  "releases": {
+    "69478335": {
+      "tag_name": "notepad--v1.10",
+      "fully_synced_at": "2025-07-26 09:39:23.435775"
+    }
+  },
+  "assets": {
+    "69478335": {
+      "com.hmja.notepad_1.10.0.0_amd64.deb_1788240": {
+        "name": "com.hmja.notepad_1.10.0.0_amd64.deb",
+        "size": 1788240,
+        "updated_at": "2025-07-26T09:39:21+00:00",
+        "synced_at": "2025-07-26 09:39:21.323569"
+      },
+      "notepad--v1.10.zip_8334893": {
+        "name": "notepad--v1.10.zip",
+        "size": 8334893,
+        "updated_at": "2025-07-26T09:39:23+00:00",
+        "synced_at": "2025-07-26 09:39:23.433684"
+      }
+    }
+  },
+  "source_codes": {
+    "notepad--v1.10": {
+      "SourceCode_notepad--v1.10.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:39:18.120596"
+      },
+      "SourceCode_notepad--v1.10.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:39:19.528864"
+      }
+    }
+  }
+}
