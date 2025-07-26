@@ -1,5 +1,10 @@
 {
-  "releases": {},
+  "releases": {
+    "69478335": {
+      "tag_name": "notepad--v1.10",
+      "fully_synced_at": "2025-07-26 09:39:23.435775"
+    }
+  },
   "assets": {
     "69478335": {
       "com.hmja.notepad_1.10.0.0_amd64.deb_1788240": {
@@ -14,6 +19,26 @@
         "updated_at": "2025-07-26T09:39:23+00:00",
         "synced_at": "2025-07-26 09:39:23.433684"
       }
+    },
+    "73417681": {
+      "com.hmja.notepad_1.13.0.0_amd64.deb_1809808": {
+        "name": "com.hmja.notepad_1.13.0.0_amd64.deb",
+        "size": 1809808,
+        "updated_at": "2025-07-26T09:39:30+00:00",
+        "synced_at": "2025-07-26 09:39:30.874849"
+      },
+      "Notepad--.mac10.12.dmg_13305235": {
+        "name": "Notepad--.mac10.12.dmg",
+        "size": 13305235,
+        "updated_at": "2025-07-26T09:39:32+00:00",
+        "synced_at": "2025-07-26 09:39:33.027538"
+      },
+      "notepad--v1.13.1.zip_8367662": {
+        "name": "notepad--v1.13.1.zip",
+        "size": 8367662,
+        "updated_at": "2025-07-26T09:39:34+00:00",
+        "synced_at": "2025-07-26 09:39:34.925274"
+      }
     }
   },
   "source_codes": {
@@ -25,6 +50,16 @@
       "SourceCode_notepad--v1.10.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 09:39:19.528864"
+      }
+    },
+    "notepad-v1.13": {
+      "SourceCode_notepad-v1.13.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:39:27.601422"
+      },
+      "SourceCode_notepad-v1.13.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:39:29.047996"
       }
     }
   }
