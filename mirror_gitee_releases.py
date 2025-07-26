@@ -11,7 +11,7 @@ from github import Github, GithubException
 SOURCE_REPO = os.environ['SOURCE_REPO']
 TARGET_REPO = os.environ.get('TARGET_REPO', os.environ['GITHUB_REPOSITORY'])
 GITHUB_TOKEN = os.environ['GITHUB_TOKEN']
-SOURCE_GITEE_TOKEN = os.environ.get('SOURCE_GITEE_TOKEN')  # 修改为Gitee的token变量名
+SOURCE_GITEE_TOKEN = os.environ.get('SOURCE_GITEE_TOKEN')
 SYNCED_DATA_FILE = os.environ.get('SYNCED_DATA_FILE', 'synced_data.json')
 SYNCED_DATA_BACKUP = f"{SYNCED_DATA_FILE}.bak"
 SOURCE_OWNER, SOURCE_REPO_NAME = SOURCE_REPO.split('/')
@@ -174,17 +174,40 @@ def sync_release_assets(source_release, target_release, synced_data):
     
     print(f"\n===== 同步附件（{len(source_assets)} 个）: {source_release['tag_name']} =====")
     for asset in source_assets:
+        # 确保资产包含必要字段
+        if 'name' not in asset:
+            print(f"跳过无效资产: {asset}")
+            continue
+            
         asset_name = asset['name']
-        asset_key = f"{asset_name}_{asset['size']}"
+        
+        # 处理缺失size字段的情况
+        asset_size = asset.get('size', 0)
+        asset_key = f"{asset_name}_{asset_size}"
         content_type = asset.get('content_type', "application/octet-stream")
         
         # 使用Gitee的更新时间或创建时间
-        updated_at_str = asset.get('updated_at', asset['created_at'])
-        source_updated_at = datetime.datetime.fromisoformat(updated_at_str).astimezone(datetime.timezone.utc)
-        source_info = {
-            'size': asset['size'],
-            'updated_at': source_updated_at.isoformat()
-        }
+        updated_at_str = asset.get('updated_at', asset.get('created_at'))
+        if updated_at_str:
+            try:
+                source_updated_at = datetime.datetime.fromisoformat(updated_at_str).astimezone(datetime.timezone.utc)
+                source_info = {
+                    'size': asset_size,
+                    'updated_at': source_updated_at.isoformat()
+                }
+            except Exception as e:
+                print(f"解析时间失败: {str(e)}，使用当前时间")
+                source_info = {
+                    'size': asset_size,
+                    'updated_at': datetime.datetime.now().isoformat()
+                }
+        else:
+            print(f"资产 {asset_name} 无更新时间，使用当前时间")
+            source_info = {
+                'size': asset_size,
+                'updated_at': datetime.datetime.now().isoformat()
+            }
+            
         print(f"源文件 {asset_name} 信息: 大小={source_info['size']}B，时间={source_info['updated_at']}")
         
         need_sync = False
@@ -202,21 +225,30 @@ def sync_release_assets(source_release, target_release, synced_data):
                 need_sync = True
                 print(f"大小不一致: 源={source_info['size']}B 目标={target_info['size']}B")
             elif source_info['updated_at'] and target_info['updated_at']:
-                source_time = datetime.datetime.fromisoformat(source_info['updated_at']).timestamp()
-                target_time = datetime.datetime.fromisoformat(target_info['updated_at']).timestamp()
-                if source_time > target_time:
+                try:
+                    source_time = datetime.datetime.fromisoformat(source_info['updated_at']).timestamp()
+                    target_time = datetime.datetime.fromisoformat(target_info['updated_at']).timestamp()
+                    if source_time > target_time:
+                        need_sync = True
+                        print(f"源文件更新: 源={source_info['updated_at']} 目标={target_info['updated_at']}")
+                except Exception as e:
+                    print(f"时间比较失败: {str(e)}，强制同步")
                     need_sync = True
-                    print(f"源文件更新: 源={source_info['updated_at']} 目标={target_info['updated_at']}")
         
         if not need_sync:
             print(f"附件 {asset_name} 无需同步")
             continue
         
         # 执行同步（属于更新）
-        temp_path = f"temp_{asset['id']}_{asset_name}"
+        temp_path = f"temp_{asset['id']}_{asset_name}" if 'id' in asset else f"temp_{asset_name}"
         try:
             # 使用Gitee的附件下载URL
-            download_file(asset['browser_download_url'], temp_path)
+            download_url = asset.get('browser_download_url')
+            if not download_url:
+                print(f"资产 {asset_name} 无下载链接，跳过")
+                continue
+                
+            download_file(download_url, temp_path)
             uploaded_asset = retry_upload(
                 target_release, temp_path, asset_name, content_type
             )
@@ -415,10 +447,10 @@ def main():
             target_release = get_or_create_release(
                 target_repo, 
                 tag_name, 
-                release['name'], 
-                release['body'], 
+                release.get('name', tag_name), 
+                release.get('body', ''), 
                 False,  # Gitee没有draft概念
-                release['prerelease']
+                release.get('prerelease', False)
             )
             
             if not target_release:
