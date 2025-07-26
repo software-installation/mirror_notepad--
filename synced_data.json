@@ -19,6 +19,10 @@
     "266121": {
       "tag_name": "v1.18",
       "fully_synced_at": "2025-07-26 09:10:55.781016"
+    },
+    "269583": {
+      "tag_name": "v1.19",
+      "fully_synced_at": "2025-07-26 09:14:57.423169"
     }
   },
   "assets": {
@@ -163,6 +167,50 @@
         "updated_at": "2025-07-26T09:10:52+00:00",
         "synced_at": "2025-07-26 09:10:52.984487"
       }
+    },
+    "269583": {
+      "Notepad--v1.19.2-Installer.exe_0": {
+        "name": "Notepad--v1.19.2-Installer.exe",
+        "size": 7727072,
+        "updated_at": "2025-07-26T09:11:26+00:00",
+        "synced_at": "2025-07-26 09:11:26.903187"
+      },
+      "Notepad--v1.19.2(\u514d\u5b89\u88c5\u7248\u672c).zip_0": {
+        "name": "Notepad--v1.19.2(\u514d\u5b89\u88c5\u7248\u672c).zip",
+        "size": 8225426,
+        "updated_at": "2025-07-26T09:11:46+00:00",
+        "synced_at": "2025-07-26 09:11:47.120986"
+      },
+      "com.hmja.notepad_1.19.2.0_amd64.deb_0": {
+        "name": "com.hmja.notepad_1.19.2.0_amd64.deb",
+        "size": 2108764,
+        "updated_at": "2025-07-26T09:12:00+00:00",
+        "synced_at": "2025-07-26 09:12:00.935740"
+      },
+      "Notepad--v1.19.2-mac_x64_12.3.dmg_0": {
+        "name": "Notepad--v1.19.2-mac_x64_12.3.dmg",
+        "size": 15421033,
+        "updated_at": "2025-07-26T09:12:36+00:00",
+        "synced_at": "2025-07-26 09:12:36.322126"
+      },
+      "ndd--v1.19.2-dynamic.zip_0": {
+        "name": "ndd--v1.19.2-dynamic.zip",
+        "size": 23760872,
+        "updated_at": "2025-07-26T09:13:28+00:00",
+        "synced_at": "2025-07-26 09:13:28.768001"
+      },
+      "com.hmja.notepad_1.19.2_ubuntu_20.04_amd64.deb_0": {
+        "name": "com.hmja.notepad_1.19.2_ubuntu_20.04_amd64.deb",
+        "size": 18334036,
+        "updated_at": "2025-07-26T09:14:08+00:00",
+        "synced_at": "2025-07-26 09:14:08.394390"
+      },
+      "com.hmja.notepad_1.19.2_ubuntu_22.04_amd64.deb_0": {
+        "name": "com.hmja.notepad_1.19.2_ubuntu_22.04_amd64.deb",
+        "size": 21348460,
+        "updated_at": "2025-07-26T09:14:53+00:00",
+        "synced_at": "2025-07-26 09:14:53.638787"
+      }
     }
   },
   "source_codes": {
@@ -214,6 +262,16 @@
       "SourceCode_v1.18.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 09:09:24.801939"
+      }
+    },
+    "v1.19": {
+      "SourceCode_v1.19.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:11:03.560023"
+      },
+      "SourceCode_v1.19.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:11:06.490729"
       }
     }
   }
