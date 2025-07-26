@@ -151,6 +151,10 @@
     "169448739": {
       "tag_name": "notepad-v2.18",
       "fully_synced_at": "2025-07-26 09:56:07.076992"
+    },
+    "232418471": {
+      "tag_name": "notepad-v3.4",
+      "fully_synced_at": "2025-07-26 09:56:39.169642"
     }
   },
   "assets": {
@@ -1278,6 +1282,38 @@
         "updated_at": "2025-07-26T09:56:06+00:00",
         "synced_at": "2025-07-26 09:56:07.067925"
       }
+    },
+    "232418471": {
+      "com.hmja.notepad_3.4.0.0_amd64.deb_5320908": {
+        "name": "com.hmja.notepad_3.4.0.0_amd64.deb",
+        "size": 5320908,
+        "updated_at": "2025-07-26T09:56:26+00:00",
+        "synced_at": "2025-07-26 09:56:26.877287"
+      },
+      "Notepad--v3.4-plugin-Installer.exe_19969668": {
+        "name": "Notepad--v3.4-plugin-Installer.exe",
+        "size": 19969668,
+        "updated_at": "2025-07-26T09:56:29+00:00",
+        "synced_at": "2025-07-26 09:56:29.541886"
+      },
+      "Notepad--v3.4-win10-portable.zip_25770559": {
+        "name": "Notepad--v3.4-win10-portable.zip",
+        "size": 25770559,
+        "updated_at": "2025-07-26T09:56:33+00:00",
+        "synced_at": "2025-07-26 09:56:33.132736"
+      },
+      "Notepad--v3.4.0-mac_arm64_12.3.dmg_32434489": {
+        "name": "Notepad--v3.4.0-mac_arm64_12.3.dmg",
+        "size": 32434489,
+        "updated_at": "2025-07-26T09:56:36+00:00",
+        "synced_at": "2025-07-26 09:56:36.474123"
+      },
+      "Notepad--v3.4.0-mac_x64_12.3.dmg_19291531": {
+        "name": "Notepad--v3.4.0-mac_x64_12.3.dmg",
+        "size": 19291531,
+        "updated_at": "2025-07-26T09:56:39+00:00",
+        "synced_at": "2025-07-26 09:56:39.163337"
+      }
     }
   },
   "source_codes": {
@@ -1659,6 +1695,16 @@
       "SourceCode_notepad-v2.18.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 09:55:47.874885"
+      }
+    },
+    "notepad-v3.4": {
+      "SourceCode_notepad-v3.4.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:56:18.629595"
+      },
+      "SourceCode_notepad-v3.4.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:56:24.405662"
       }
     }
   }
