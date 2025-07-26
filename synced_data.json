@@ -15,6 +15,10 @@
     "76039075": {
       "tag_name": "notepad-v1.14",
       "fully_synced_at": "2025-07-26 09:40:00.730748"
+    },
+    "76821436": {
+      "tag_name": "notepad-v1.15",
+      "fully_synced_at": "2025-07-26 09:40:18.036986"
     }
   },
   "assets": {
@@ -91,6 +95,38 @@
         "updated_at": "2025-07-26T09:40:00+00:00",
         "synced_at": "2025-07-26 09:40:00.728158"
       }
+    },
+    "76821436": {
+      "com.hmja.notepad_1.15.2.0_amd64.deb_1854448": {
+        "name": "com.hmja.notepad_1.15.2.0_amd64.deb",
+        "size": 1854448,
+        "updated_at": "2025-07-26T09:40:08+00:00",
+        "synced_at": "2025-07-26 09:40:08.485984"
+      },
+      "Notepad--v1.15.2-mac_m1_12.3.dmg_24746652": {
+        "name": "Notepad--v1.15.2-mac_m1_12.3.dmg",
+        "size": 24746652,
+        "updated_at": "2025-07-26T09:40:11+00:00",
+        "synced_at": "2025-07-26 09:40:11.507307"
+      },
+      "Notepad--v1.15.2-mac_x64_12.3.dmg_13370957": {
+        "name": "Notepad--v1.15.2-mac_x64_12.3.dmg",
+        "size": 13370957,
+        "updated_at": "2025-07-26T09:40:13+00:00",
+        "synced_at": "2025-07-26 09:40:13.745485"
+      },
+      "Notepad--v1.15.3-x64-setup.exe_9769388": {
+        "name": "Notepad--v1.15.3-x64-setup.exe",
+        "size": 9769388,
+        "updated_at": "2025-07-26T09:40:15+00:00",
+        "synced_at": "2025-07-26 09:40:16.088938"
+      },
+      "notepad--v1.15.3.zip_7868087": {
+        "name": "notepad--v1.15.3.zip",
+        "size": 7868087,
+        "updated_at": "2025-07-26T09:40:17+00:00",
+        "synced_at": "2025-07-26 09:40:18.034788"
+      }
     }
   },
   "source_codes": {
@@ -132,6 +168,16 @@
       "SourceCode_notepad-v1.14.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 09:39:50.992115"
+      }
+    },
+    "notepad-v1.15": {
+      "SourceCode_notepad-v1.15.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:40:05.173039"
+      },
+      "SourceCode_notepad-v1.15.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:40:06.582916"
       }
     }
   }
