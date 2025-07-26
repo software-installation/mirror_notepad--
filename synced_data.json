@@ -43,6 +43,10 @@
     "76821436": {
       "tag_name": "notepad-v1.15",
       "fully_synced_at": "2025-07-26 09:36:27.602761"
+    },
+    "78545653": {
+      "tag_name": "notepad-v1.16",
+      "fully_synced_at": "2025-07-26 09:36:40.310934"
     }
   },
   "assets": {
@@ -337,6 +341,32 @@
         "updated_at": "2025-07-26T09:36:27+00:00",
         "synced_at": "2025-07-26 09:36:27.600221"
       }
+    },
+    "78545653": {
+      "com.hmja.notepad_1.16.2.0_amd64.deb_1897972": {
+        "name": "com.hmja.notepad_1.16.2.0_amd64.deb",
+        "size": 1897972,
+        "updated_at": "2025-07-26T09:36:35+00:00",
+        "synced_at": "2025-07-26 09:36:35.383532"
+      },
+      "Notepad--v1.16.1-Installer.exe_6571551": {
+        "name": "Notepad--v1.16.1-Installer.exe",
+        "size": 6571551,
+        "updated_at": "2025-07-26T09:36:37+00:00",
+        "synced_at": "2025-07-26 09:36:37.143328"
+      },
+      "Notepad--v1.16.2-Installer.exe_6585409": {
+        "name": "Notepad--v1.16.2-Installer.exe",
+        "size": 6585409,
+        "updated_at": "2025-07-26T09:36:38+00:00",
+        "synced_at": "2025-07-26 09:36:38.960167"
+      },
+      "vcomp140.zip_79678": {
+        "name": "vcomp140.zip",
+        "size": 79678,
+        "updated_at": "2025-07-26T09:36:40+00:00",
+        "synced_at": "2025-07-26 09:36:40.309893"
+      }
     }
   },
   "source_codes": {
@@ -448,6 +478,16 @@
       "SourceCode_notepad-v1.15.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 09:36:18.105195"
+      }
+    },
+    "notepad-v1.16": {
+      "SourceCode_notepad-v1.16.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:36:32.609125"
+      },
+      "SourceCode_notepad-v1.16.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:36:33.929562"
       }
     }
   }
