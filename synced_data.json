@@ -91,6 +91,10 @@
     "131668444": {
       "tag_name": "notepad-v2.11",
       "fully_synced_at": "2025-07-26 09:48:16.377593"
+    },
+    "127119527": {
+      "tag_name": "notepad-v2.10",
+      "fully_synced_at": "2025-07-26 09:48:49.048172"
     }
   },
   "assets": {
@@ -739,6 +743,50 @@
         "updated_at": "2025-07-26T09:48:16+00:00",
         "synced_at": "2025-07-26 09:48:16.371420"
       }
+    },
+    "127119527": {
+      "com.hmja.notepad_2.10.0.0_amd64.deb_3818228": {
+        "name": "com.hmja.notepad_2.10.0.0_amd64.deb",
+        "size": 3818228,
+        "updated_at": "2025-07-26T09:48:33+00:00",
+        "synced_at": "2025-07-26 09:48:33.768799"
+      },
+      "ndd-v2.10-kinly-spv10-x64.deb_3799208": {
+        "name": "ndd-v2.10-kinly-spv10-x64.deb",
+        "size": 3799208,
+        "updated_at": "2025-07-26T09:48:35+00:00",
+        "synced_at": "2025-07-26 09:48:35.495300"
+      },
+      "Notepad--v2.10.0-mac_x64_12.3.dmg_19333664": {
+        "name": "Notepad--v2.10.0-mac_x64_12.3.dmg",
+        "size": 19333664,
+        "updated_at": "2025-07-26T09:48:38+00:00",
+        "synced_at": "2025-07-26 09:48:38.432510"
+      },
+      "Notepad--v2.10.0-mac_x64_sierra-10.13.dmg_17743511": {
+        "name": "Notepad--v2.10.0-mac_x64_sierra-10.13.dmg",
+        "size": 17743511,
+        "updated_at": "2025-07-26T09:48:40+00:00",
+        "synced_at": "2025-07-26 09:48:40.982823"
+      },
+      "Notepad--v2.10.0-plugin-Chinese-Traditional-Installer.exe_19296232": {
+        "name": "Notepad--v2.10.0-plugin-Chinese-Traditional-Installer.exe",
+        "size": 19296232,
+        "updated_at": "2025-07-26T09:48:43+00:00",
+        "synced_at": "2025-07-26 09:48:43.485691"
+      },
+      "Notepad--v2.10.0-plugin-Installer.exe_19300474": {
+        "name": "Notepad--v2.10.0-plugin-Installer.exe",
+        "size": 19300474,
+        "updated_at": "2025-07-26T09:48:45+00:00",
+        "synced_at": "2025-07-26 09:48:45.932691"
+      },
+      "Notepad--v2.10.0-win10-portable.zip_24935690": {
+        "name": "Notepad--v2.10.0-win10-portable.zip",
+        "size": 24935690,
+        "updated_at": "2025-07-26T09:48:48+00:00",
+        "synced_at": "2025-07-26 09:48:49.041449"
+      }
     }
   },
   "source_codes": {
@@ -970,6 +1018,16 @@
       "SourceCode_notepad-v2.11.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 09:47:58.806924"
+      }
+    },
+    "notepad-v2.10": {
+      "SourceCode_notepad-v2.10.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:48:26.624498"
+      },
+      "SourceCode_notepad-v2.10.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:48:31.712665"
       }
     }
   }
