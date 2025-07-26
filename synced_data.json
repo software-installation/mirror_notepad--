@@ -51,6 +51,10 @@
     "82755901": {
       "tag_name": "notepad--v1.17",
       "fully_synced_at": "2025-07-26 09:36:56.691056"
+    },
+    "83671742": {
+      "tag_name": "notepad--v1.18",
+      "fully_synced_at": "2025-07-26 09:37:12.932976"
     }
   },
   "assets": {
@@ -403,6 +407,20 @@
         "updated_at": "2025-07-26T09:36:56+00:00",
         "synced_at": "2025-07-26 09:36:56.688332"
       }
+    },
+    "83671742": {
+      "com.hmja.notepad_1.18.1.0_amd64.deb_2056124": {
+        "name": "com.hmja.notepad_1.18.1.0_amd64.deb",
+        "size": 2056124,
+        "updated_at": "2025-07-26T09:37:11+00:00",
+        "synced_at": "2025-07-26 09:37:11.177273"
+      },
+      "Notepad--v1.18.1-Installer.exe_7658464": {
+        "name": "Notepad--v1.18.1-Installer.exe",
+        "size": 7658464,
+        "updated_at": "2025-07-26T09:37:12+00:00",
+        "synced_at": "2025-07-26 09:37:12.930391"
+      }
     }
   },
   "source_codes": {
@@ -534,6 +552,16 @@
       "SourceCode_notepad--v1.17.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 09:36:47.702280"
+      }
+    },
+    "notepad--v1.18": {
+      "SourceCode_notepad--v1.18.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:37:05.267194"
+      },
+      "SourceCode_notepad--v1.18.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:37:09.583644"
       }
     }
   }
