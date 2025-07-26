@@ -111,6 +111,10 @@
     "151276254": {
       "tag_name": "notepad-v2.15",
       "fully_synced_at": "2025-07-26 09:50:49.134498"
+    },
+    "161967806": {
+      "tag_name": "notepad-v2.17",
+      "fully_synced_at": "2025-07-26 09:51:17.753712"
     }
   },
   "assets": {
@@ -925,6 +929,32 @@
         "updated_at": "2025-07-26T09:50:48+00:00",
         "synced_at": "2025-07-26 09:50:49.127869"
       }
+    },
+    "161967806": {
+      "Notepad--v2.17.0-mac_arm64_12.3.dmg_30337145": {
+        "name": "Notepad--v2.17.0-mac_arm64_12.3.dmg",
+        "size": 30337145,
+        "updated_at": "2025-07-26T09:51:09+00:00",
+        "synced_at": "2025-07-26 09:51:09.413846"
+      },
+      "Notepad--v2.17.0-mac_x64_12.3.dmg_18961015": {
+        "name": "Notepad--v2.17.0-mac_x64_12.3.dmg",
+        "size": 18961015,
+        "updated_at": "2025-07-26T09:51:12+00:00",
+        "synced_at": "2025-07-26 09:51:12.234962"
+      },
+      "Notepad--v2.17.0-plugin-Installer.exe_19277178": {
+        "name": "Notepad--v2.17.0-plugin-Installer.exe",
+        "size": 19277178,
+        "updated_at": "2025-07-26T09:51:14+00:00",
+        "synced_at": "2025-07-26 09:51:14.739177"
+      },
+      "Notepad--v2.17.0-win10-portable.zip_24762184": {
+        "name": "Notepad--v2.17.0-win10-portable.zip",
+        "size": 24762184,
+        "updated_at": "2025-07-26T09:51:17+00:00",
+        "synced_at": "2025-07-26 09:51:17.746848"
+      }
     }
   },
   "source_codes": {
@@ -1206,6 +1236,16 @@
       "SourceCode_notepad-v2.15.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 09:50:39.864262"
+      }
+    },
+    "notepad-v2.17": {
+      "SourceCode_notepad-v2.17.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:51:00.057246"
+      },
+      "SourceCode_notepad-v2.17.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:51:05.561099"
       }
     }
   }
