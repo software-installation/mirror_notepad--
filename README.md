@@ -1,0 +1,2 @@
+# mirror_gitee_releases
+同步gitee仓库release文件的自动化脚本
